@@ -50,3 +50,126 @@ nav {
 .ul li a {
    color: black;
 }
+
+#fale-conosco {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    linear-gradient(rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0.3)),
+    url("../images/fundo.png"); /* Imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+#titulo {
+  margin-top: 150px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  padding: 10px;
+  color: #ececec;
+  background-color: #69a625;
+  border-radius: 10px;
+}
+
+#nome_input {
+  height: 40px;
+  width: 350px;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #ececec;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+#nome_input::placeholder {
+  color: #04040480;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+#email_input {
+  height: 40px;
+  width: 350px;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #ececec;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+#email_input::placeholder {
+  color: #04040480;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+#mensagem_input {
+  height: 200px;
+  width: 350px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #ececec;
+  border: none;
+  outline: none;
+  padding: 15px;
+  padding-bottom: 175px;
+  font-family: "Roboto", sans-serif;
+}
+
+#mensagem_input::placeholder {
+  color: #04040480;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+#telefone {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #69a625;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ececec;
+}
+
+.container-telefone {
+  text-align: center;
+  padding: 10px;
+}
+.btn {
+  margin-top: 15px;
+  height: 35px;
+  width: 85px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  background-color: #69a625;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #ececec;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #d1d1d1;
+  background-color: #426618;
+  transition: 0.3s;
+}
