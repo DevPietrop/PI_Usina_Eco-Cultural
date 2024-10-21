@@ -1,10 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;0,8..144,400;1,8..144,100..900;1,8..144,400&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-body{
-    font-family: "Roboto Serif", serif;    
+
+.nav {
+  font-family: "Roboto", sans-serif;
+}
+
+.background-nav {
+  background-color: white;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 106px;
+  max-height: 117px;
+}
+
+.ul li img {
+  max-width: 67px;
+  max-height: 67px;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+}
+
+.ul li {
+  margin: 0 35px;
+  font-size: 15px;
+  color: white;
+}
+
+.ul li a {
+   color: black;
 }
